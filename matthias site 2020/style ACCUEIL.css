@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+html, body {
+		margin: 0;
+		padding: 0;
+		height: 100%;
+		width: 100%
+}
+
+#TEXTE {
+	font-family: 'Raleway';
+	font-size: 18px;
+	text-align: justify;
+	margin-left: 50px;
+	margin-right: 50px;
+	text-indent: 50px;
+	
+}
+
+
+.intro{
+		height: 100%;
+		width: 100%;
+		margin: auto;
+		background: url("PAGE DE FIN 2.jpg") no-repeat 50% 50%;
+		display: table;
+		top: 0;
+		background-size: cover;
+
+}
+.intro .inner {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	max-width: none;
+}
+.content {
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+.content h2 {
+	font-family: 'Quicksand', sans-serif;
+	color: #404040;
+	text-shadow: 0px 0px 400px #000;
+	font-size: 500%;
+	letter-spacing: 10px;
+}
+.content h1 {
+	font-family: 'Quicksand', sans-serif;
+	color: #404040;
+	text-shadow: 0px 0px 400px #000;
+	font-size: 150%;
+}
+.titretexte h3 {
+	font-family: 'Quicksand', sans-serif;
+	color: #404040;
+	text-shadow: 0px 0px 400px #000;
+	font-size: 24px;
+	letter-spacing: 3px;
+	text-align: justify;
+	margin-left: 50px;
+	margin-right: 50px;
+	text-indent: 50px;
+}
+.titretexte h4 {
+	font-family: 'Quicksand', sans-serif;
+	color: #404040;
+	text-shadow: 0px 0px 400px #000;
+	font-size: 18px;
+	letter-spacing: none;
+	text-align: justify;
+	margin-left: 50px;
+	margin-right: 50px;
+	text-indent: 50px;
+}
+.btn {
+	border-radius: 8px;
+	font-family: 'Roboto', sans-serif;
+	color: #6a6a6a;
+	font-size: 135%;
+	padding: 10px 20px;
+	border: solid #6a6a6a 2.5px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.btn:hover {
+	color: #d2d2d2;
+	border: solid #d2d2d2 3px;
+}
+p{
+	font-size: 160%;
+	line-height: 210%;
+	text-align: justify;
+	margin: 2%;
+	font-family: 'Roboto', sans-serif;
+}
+.Petite:hover{
+	size: 50%;
+	margin-right: 500px;
+}
+
+@media screen and (max-width: 768px) {
+	.content h1 {
+		font-size: 250%;
+	}
+	.btn {
+		font-size: 110%;
+		padding: 7px 15px;
+	}
+	p {
+		font-size: 110%;
+		line-height: 160%
+	}
+}
+	
